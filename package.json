@@ -1,0 +1,36 @@
+{
+  "name": "phaser_simple_game",
+  "version": "1.0.0",
+  "description": "simple game",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "author": "A.Vahitov",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.6.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "@babel/core": "^7.17.2",
+    "babel-preset-env": "^1.7.0",
+    "mini-css-extract-plugin": "^2.5.3",
+    "phaser": "^3.55.2",
+    "raw-loader": "^4.0.2",
+    "sass": "^1.49.7",
+    "sass-loader": "^12.5.0"
+  }
+}

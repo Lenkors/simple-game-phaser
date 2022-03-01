@@ -1,0 +1,10 @@
+<% var data = {
+    title: "Заголовок | Проект",
+    author: "Lenkors",
+    projectName: "Simple game"
+  }; %>
+<%= _.template(require('../layout/header.html').default)(data) %>
+  
+  <div class="container"><%=data.projectName%></div>
+  
+<%= _.template(require('../layout/footer.html').default)(data) %>
